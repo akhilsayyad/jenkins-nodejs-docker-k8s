@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: "pdockersavant/nodejs-app:latest"
+        image: "akhilsayyad/firstdockerrepo:v1"
         ports:
           - containerPort: 5000
 ---
