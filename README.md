@@ -61,15 +61,20 @@ jenkins-nodejs-docker-k8s/
 ## Deployment Commands
 
 kubectl apply -f deployment.yml
+
 kubectl apply -f service.yml
 
 
 ## Verify Deployment
 
 kubectl get pods
+
 kubectl get deployments
+
 kubectl get services
+
 kubectl get nodes
+
 ## Access the Application
 
 Get the Service details:
